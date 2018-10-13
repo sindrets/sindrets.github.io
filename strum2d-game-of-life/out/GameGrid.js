@@ -10,7 +10,7 @@ var GameGrid = /** @class */ (function () {
         this.cellList = [[]];
         this.cellCount = 0;
         this.cellSize = 0;
-        this.drawGrid = true;
+        this.drawGrid = false;
         this.setGridSize(width, height);
         this.gridTexture = new Strum2d.Texture(this.gridWidth * this.cellSize, this.gridHeight * this.cellSize);
         this.gridTexture.setShadowBlur(60);

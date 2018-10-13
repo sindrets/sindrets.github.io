@@ -16,7 +16,7 @@ export class GameGrid {
 
     public cellSize: number = 0;
     public gridTexture: Texture;
-    public drawGrid: boolean = true;
+    public drawGrid: boolean = false;
 
     constructor(width: number, height: number) {
         this.setGridSize(width, height);
