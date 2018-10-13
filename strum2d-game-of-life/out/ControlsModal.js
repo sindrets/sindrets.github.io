@@ -51,6 +51,7 @@ var ControlsModal = /** @class */ (function (_super) {
         txtInfo.setTextColor("#fefefe");
         txtInfo.setText("{Enter}: Proceed one step in the simulation. \n"
             + "{Space}: Automatically proceed in the simulation. \n"
+            + "{r}: Regenerate cell grid. \n"
             + "{,}: Decrease SPS. \n"
             + "{.}: Increase SPS. \n"
             + "{g}: Toggle grid. \n"

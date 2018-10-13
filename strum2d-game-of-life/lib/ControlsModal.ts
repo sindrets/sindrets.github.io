@@ -43,6 +43,7 @@ export class ControlsModal extends Strum2d.Scene {
 		txtInfo.setText(
 			  "{Enter}: Proceed one step in the simulation. \n"
 			+ "{Space}: Automatically proceed in the simulation. \n"
+			+ "{r}: Regenerate cell grid. \n"
 			+ "{,}: Decrease SPS. \n"
 			+ "{.}: Increase SPS. \n"
 			+ "{g}: Toggle grid. \n"
