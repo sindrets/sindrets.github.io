@@ -1,0 +1,12 @@
+{
+  "name": "strum2d-game-of-life",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life in Strum2D",
+  "main": "App.js",
+  "scripts": {
+    "build": "echo Compiling for PRODUCTION && echo Compiling typescript... && tsc && echo Bundling js... && webpack --mode production && echo Done!",
+    "compile": "echo Compiling for DEVELOPMENT && echo Compiling typescript... && tsc && echo Bundling js... && webpack --mode development && echo Done!"
+  },
+  "author": "Sindre T. Strøm",
+  "license": "GPL"
+}
