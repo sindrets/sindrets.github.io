@@ -43,10 +43,12 @@ var App = /** @class */ (function (_super) {
             }
             if (e.key == ".") {
                 _this.autoSimTimeout /= 1.5;
+                _this.updateSpeedInfo();
                 console.log("Increasing simulation speed. Curret timeout: " + _this.autoSimTimeout);
             }
             if (e.key == ",") {
                 _this.autoSimTimeout *= 1.5;
+                _this.updateSpeedInfo();
                 console.log("Decreasing simulation speed. Curret timeout: " + _this.autoSimTimeout);
             }
             if (e.key.toLowerCase() == "r") {

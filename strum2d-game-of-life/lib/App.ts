@@ -45,10 +45,12 @@ export class App extends Strum2d.Scene {
 			}
 			if (e.key == ".") {
 				this.autoSimTimeout /= 1.5;
+				this.updateSpeedInfo();
 				console.log("Increasing simulation speed. Curret timeout: "+ this.autoSimTimeout);
 			}
 			if (e.key == ",") {
 				this.autoSimTimeout *= 1.5;
+				this.updateSpeedInfo();
 				console.log("Decreasing simulation speed. Curret timeout: "+ this.autoSimTimeout);
 			}
 			if (e.key.toLowerCase() == "r") {
